@@ -1,10 +1,10 @@
 # Roles Permissions Laravel (RPL)
-A stater kit with Roles and Permissions implementation on Laravel 5.4
+Basic Roles and Permissions implementation on Laravel 5.4
 
 ### Install
 1. To use it just clone the repo and composer install.
-2. Set the database connection 
-3. To test the app run `php artisan db:seed`, our [interactive seeder](http://www.qcode.in/advance-interactive-database-seeding-in-laravel/) will take care of everything.
+2. Set the database connection .
+3. To test the app run `php artisan db:seed`.
 
 ### Add a new Resource
 1. Create desired resource by running 
@@ -48,9 +48,3 @@ php artisan auth:permission Comment
 php artisan auth:permission Comment --remove
 ```
 
-### Author
-Created by [QCode.in](http://www.qcode.in)
-
-## License
-
-[MIT license](http://opensource.org/licenses/MIT).
